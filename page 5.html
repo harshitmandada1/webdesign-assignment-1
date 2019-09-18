@@ -1,0 +1,293 @@
+<!--This page consists the application form of th SSN-->
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="UTF-8" name="ApplySSN" content="www.socialsecurity.gov.,Applying for a Social Security Card">
+                <!--The meta tag gives the data of data.It is a machine parsable and will not be displayed on the page-->
+                <title>SSN APPLICATION</title>
+        </head>
+
+<body>
+
+    <h1>SOCIAL SECURITY ADMINISTRATION<br>Application for a Social Security Card</h1>
+    <hr>
+    <form><!-- the form tag is used to make forms which gives us users input data-->
+        <fieldset><!--This tag makes a boaundary around the required area-->
+            <legend><strong>1</strong></legend><!--The Legend tag is used to display the number of the fieldset-->
+                    <b>NAME</b><br>TO BE SHOWN ON CARD&nbsp;&nbsp;&nbsp;<!--the &nbsp is used for creating spcae in html-->
+                    First
+                    <input type="text" name="firstname">&nbsp;&nbsp;&nbsp;
+                    Full Middle Name
+                    <input type="text" name="middlename">&nbsp;&nbsp;&nbsp;
+                    Last
+                    <input type="text" name="lastname">&nbsp;&nbsp;&nbsp;
+                    <hr>
+                    FULL NAME AT BIRTH<br>IF OTHER THAN ABOVE&nbsp;&nbsp;&nbsp;
+                    First
+                    <input type="text" name="otherFname">&nbsp;&nbsp;&nbsp;
+                    Full Middle Name
+                    <input type="text" name="otherMname">&nbsp;&nbsp;&nbsp;
+                    Last
+                    <input type="text" name="otherLname"><br>
+                    <hr>
+                    OTHER NAMES USED&nbsp;&nbsp;&nbsp;
+                    <input type="text" name="othersUsed"><br>
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend><strong>2</strong></legend>
+        <div>
+            Social Security number previously assigned to the person<br>listed in item 1
+            <input type="text" name="PSSN1" max="3"> - <input type="text" name="PSSN2" max="2"> - <input type="text" name="PSSN3" max="4">
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>3</strong></legend>
+        <div>
+
+            <b>PLACE OF BIRTH</b><br>
+            (Do Not Abbreviate)&nbsp;&nbsp;&nbsp;
+            City
+            <input type="text" name="city">&nbsp;&nbsp;&nbsp;
+            State or Foreign Country
+            <input type="text" name="country">&nbsp;&nbsp;&nbsp;
+            Office Use Only <sub>FCI</sub>&nbsp;&nbsp;&nbsp;
+            <input type="text" name="office">&nbsp;&nbsp;&nbsp;
+        </div>
+        </fieldset>
+
+        <fieldset>
+                <legend><strong>4</strong></legend>
+        <div>
+            <b>DATE OF BIRTH</b>
+            <input type="date" name="dob"><br>
+            <sub>MM/DD/YYYY</sub>
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>5</strong></legend>
+        <div>
+            <b>CITIZENSHIP</b><br>
+            <sub>(Check One)</sub>&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="citizen">U.S. Citizen&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="citizen">Legal Alien Allowed To Work&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="citizen">Legal Alien <b>Not</b> Allowed To Work(See Instructions On Page 3)&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="citizen">Other (See Instructions On Page 3)
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>6</strong></legend>
+        <div>
+            <b>ETHNICITY</b><br>Are You Hispanic or Latino? (Your Response is Voluntary)<br>
+            <input type="radio" name="ethnicity">Yes&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="ethnicity">No
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>7</strong></legend>
+        <div>
+
+            <b>RACE</b><br>Select One or More<br>(Your Response is Voluntary)&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="race1">Native Hawaiian&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="race4">American Indian&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="race6">Other Pacific Islander<br>
+            <input type="checkbox" name="race2">Alaska Native&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="race5">Black/African American&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="race7">White<br>
+            <input type="checkbox" name="race3">Asian
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>8</strong></legend>
+        <div>
+            <b>SEX</b>&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="sex">Male&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="sex">Female&nbsp;&nbsp;&nbsp;
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>9</strong></legend>
+        <div>
+            <b>A. PARENT/ MOTHER'S NAME AT HER BIRTH</b>&nbsp;&nbsp;&nbsp;
+            <sup>First</sup><!--this tag displays the text as a supertext-->
+            <input type="text" name="MFname">&nbsp;&nbsp;&nbsp;
+            <sup>Full Middle Name</sup>
+            <input type="text" name="MMname">&nbsp;&nbsp;&nbsp;
+            <sup>Last</sup>
+            <input type="text" name="MLname"><br>
+
+            <b>B. PARENT/ MOTHER'S SOCIAL<br>SECURITY NUMBER</b><sub>(See instructions for 9 B on Page 3)</sub><!--this tag represents the text as a subscript-->&nbsp;&nbsp;&nbsp;
+            <input type="text" name="PSSNl1" max="3"> - <input type="text" name="PSSNl2" max="2"> - <input type="text" name="PSSNl3" max="4">
+            <input type="checkbox" name="MSSN1">Unknown
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>10</strong></legend>
+        <div>
+          
+            <b>A. PARENT/ FATHER'S<br>NAME</b>&nbsp;&nbsp;&nbsp;
+            <sup>First</sup>
+            <input type="text" name="FFname">&nbsp;&nbsp;&nbsp;
+            <sup>Full Middle Name</sup>
+            <input type="text" name="FMname">&nbsp;&nbsp;&nbsp;
+            <sup>Last</sup>
+            <input type="text" name="FLname"><br>
+
+            <b>B. PARENT/ FATHER'S SOCIAL<br>SECURITY NUMBER</b><sub>(See instructions for 10B on Page 3)</sub>&nbsp;&nbsp;&nbsp;
+            <input type="text" name="PSSNf1" max="3"> - <input type="text" name="PSSNf2" max="2"> - <input type="text" name="PSSNf3" max="4">
+            <input type="checkbox" name="FSSN1">Unknown<br>
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>11</strong></legend>
+        <div>
+            
+            Has the person listed in item 1 or anyone acting on his/her behalf ever filed for or received a Social
+            Security number<br>card before?&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="SSNbefore">Yes (If "yes" answer questions 12-13)&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="SSNbefore">No&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="SSNbefore">Don't Know (If "don't know," skip to question 14.)
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>12</strong></legend>
+        <div>
+            Name shown on the most recent Social<br>Security card issued for the person<br>listed in item 1&nbsp;&nbsp;&nbsp;
+            <sup>First</sup>
+            <input type="text" name="RFname">&nbsp;&nbsp;&nbsp;
+            <sup>Full Middle Name</sup>
+            <input type="text" name="RMname">&nbsp;&nbsp;&nbsp;
+            <sup>Last</sup>
+            <input type="text" name="RLname">&nbsp;&nbsp;&nbsp;
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>13</strong></legend>
+        <div>
+
+            Enter any different date of birth if used on an<br>earlier application for a card&nbsp;&nbsp;&nbsp;
+            <input type="date" name="Pdob">
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>14</strong></legend>
+        <div>
+
+            <b>TODAY'S DATE</b>&nbsp;&nbsp;&nbsp;
+            <input type="date" name="Tdate">
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>15</strong></legend>
+        <div>
+        
+            <b>DAYTIME PHONE NUMBER</b>&nbsp;&nbsp;&nbsp;
+            <input type="number" name="Dphone">
+            <sub>
+                <pre>Area Code     Number</pre></sub>
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>16</strong></legend>
+        <div>
+         
+            <b>MAILING ADDRESS</b><br>
+            <sub>(Do Not Abbreviate)</sub>&nbsp;&nbsp;&nbsp;
+            <sup>Street Address, Apt. No., PO Box, Rural Route No.</sup>&nbsp;&nbsp;&nbsp;
+            <input type="text" name="Maddress">&nbsp;&nbsp;&nbsp;
+            <sup>City</sup>
+            <input type="text" name="MCity">&nbsp;&nbsp;&nbsp;
+            <sup>State/Foreign Country</sup>
+            <input type="text" name="Mcountry">&nbsp;&nbsp;&nbsp;
+            <sup>ZIP Code</sup>
+            <input type="number" name="MCode">
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>17</strong></legend>
+        <div>
+            <b>I declare under penalty of perjury that I have examined all the information on this form, and on any
+                accompanying statements or forms,<br>and it is true and correct to the best to my knowledge.</b><br>
+            <b>YOUR SIGNATURE</b><br>
+            <input type="text" name="sign"><br>
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+                <legend><strong>18</strong></legend>
+        <div>
+            <b>YOUR RELATIONSHIP TO THE PERSON IN ITEM 1 IS:</b><br>
+            <input type="radio" name="relation">Self&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="relation">Natural or Adoptive Parent&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="relation">Legal Guardian&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="relation">Other&nbsp;&nbsp;&nbsp;
+            Specify
+            <input type="text" name="relation">
+        </div>
+        </fieldset>
+        <hr>
+        <fieldset>
+        <div>
+            DO NOT WRITE BELOW THIS LINE (FOR SSA USE ONLY)<br>
+            NPN
+            <input type="text" name="npn">&nbsp;&nbsp;&nbsp;
+            DOC
+            <input type="text" name="doc">&nbsp;&nbsp;&nbsp;
+            NTI
+            <input type="text" name="nti">&nbsp;&nbsp;&nbsp;
+            CAN
+            <input type="text" name="can">&nbsp;&nbsp;&nbsp;
+            ITV
+            <input type="text" name="itv">&nbsp;&nbsp;&nbsp;
+            PBC
+            <input type="text" name="pbc">&nbsp;&nbsp;&nbsp;
+            EVI
+            <input type="text" name="evi">&nbsp;&nbsp;&nbsp;
+            EVA
+            <input type="text" name="eva">&nbsp;&nbsp;&nbsp;
+            EVC
+            <input type="text" name="evc">&nbsp;&nbsp;&nbsp;
+            PRA
+            <input type="text" name="pra">&nbsp;&nbsp;&nbsp;
+            NWR
+            <input type="text" name="nwr">&nbsp;&nbsp;&nbsp;
+            DNR
+            <input type="text" name="dnr">&nbsp;&nbsp;&nbsp;
+            UNIT
+            <input type="text" name="unit"><br><br>
+            <textarea placeholder="EVIDENCE SUBMITTED" rows="8" cols="100">
+            </textarea>&nbsp;&nbsp;&nbsp;<br>
+
+            SIGNATURE AND TITLE OF EMPLOYEE(S) REVIEWING<br>EVIDENCE AND/OR CONDUCTING INTERVIEW&nbsp;&nbsp;&nbsp;
+            <input type="text" name="Esign"><br><br>
+            <sup>DATE</sup><br>
+            <input type="date" name="Fdate"><br>
+            DCL<br>
+            <input type="text" name="dcl"><br>
+            DATE<br>
+            <input type="date" name="F1date"><br>
+        </div>
+        </fieldset>
+    </form>
+    <hr>
+    <footer>Form <b>SS-5</b>(08-2011) ef (08-2011) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Destroy Prior Editions</footer>
+    <footer style="text-align:center">Page 3</footer>
+    </body>
+</body>
+
+</html>
